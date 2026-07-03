@@ -111,4 +111,4 @@ jobs:
         version: "*"
         token: ${{ secrets.GITHUB_TOKEN }}
         working-directory: tests-external-org
-        allow-external-github-orgs: false
+        allow-external-github-orgs: true
